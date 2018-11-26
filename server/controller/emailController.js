@@ -13,15 +13,15 @@ const sendEmail = (req, res) => {
       service: "gmail",
       host: "smtp.gmail.com",
       auth: {
-        user: "destinyleaross@gmail.com",
-        pass: "8tcKbr7Xbm!"
+        user: process.env.EMAILUSER,
+        pass: process.env.EMAILPASSWORD
       }
     })
   );
 
   var mailOptions = {
     from: emailAddress,
-    to: "destinyleaross@gmail.com",
+    to: process.env.EMAILUSER,
     subject: name + " | " + subject,
     text: message
   };
