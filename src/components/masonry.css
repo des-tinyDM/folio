@@ -1,0 +1,33 @@
+.masonry-grid {
+  position: relative;
+  width: 80%;
+  margin: 0 10%;
+  min-height: 80vh;
+  top: -30vh;
+}
+
+.masonry-grid .grid-item {
+  width: 49%;
+  /* min-height: 250px; */
+  position: absolute;
+  transition: top 400ms cubic-bezier(0.455, 0.03, 0.515, 0.955),
+    left 400ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  display: flex;
+  justify-content: center;
+  /* min-width: 350px; */
+}
+
+@media only screen and (max-width: 600px) {
+  .masonry-grid {
+    top: -35vh;
+  }
+  .masonry-grid .grid-item {
+    min-width: 100%;
+    /* min-height: 250px; */
+    position: absolute;
+    transition: top 400ms cubic-bezier(0.455, 0.03, 0.515, 0.955),
+      left 400ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    display: flex;
+    justify-content: center;
+  }
+}
