@@ -153,7 +153,7 @@ class Contact extends Component {
               </div>
 
               <div className="cinfo">
-                <h5>Email Us At</h5>
+                <h5>Email Me At</h5>
                 <p>
                   destinyleaross@gmail.com
                   <br />
@@ -161,7 +161,7 @@ class Contact extends Component {
               </div>
 
               <div className="cinfo">
-                <h5>Call Us At</h5>
+                <h5>Call Me At</h5>
                 <p>
                   Phone: (+1) 234 303 8079
                   <br />
@@ -170,28 +170,26 @@ class Contact extends Component {
 
               <ul className="contact-social">
                 <li>
-                  <a href="#">
-                    <i className="fab fa-facebook-f" aria-hidden="true" />
+                  <a href="mailto:destinyleaross@gmail.com" target="_blank">
+                    <i class="fas fa-at" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="fab fa-twitter" aria-hidden="true" />
+                  <a href="tel:2343038079" target="_blank">
+                    <i className="fa fa-phone" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="fab fa-instagram" aria-hidden="true" />
+                  <a
+                    href="https://linkedin.com/in/destiny-ross"
+                    target="_blank"
+                  >
+                    <i className="fab fa-linkedin-in" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="fab fa-behance" aria-hidden="true" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-dribbble" aria-hidden="true" />
+                  <a href="https://github.com/des-tinydm" target="_blank">
+                    <i className="fab fa-github" />
                   </a>
                 </li>
               </ul>

@@ -75,10 +75,9 @@ class Services extends Component {
               <div className="service-text">
                 <h3 className="h2">Version Control/Git</h3>
                 <p>
-                  Nemo cupiditate ab quibusdam quaerat impedit magni. Earum
-                  suscipit ipsum laudantium. Quo delectus est. Maiores voluptas
-                  ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                  Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                  Git is a distributed version control system that makes it easy
+                  to track changes throughout the development process. I have
+                  ample experience using git and github solo and with a team.
                 </p>
               </div>
             </div>

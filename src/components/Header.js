@@ -161,36 +161,41 @@ class Header extends Component {
             </p>
 
             <ul className="header-nav__social">
-              <li>
-                <a href="/#">
+              {/* <li>
+                <a href="/#" target="_blank">
                   <i class="fab fa-facebook-f" />
                 </a>
               </li>
               <li>
-                <a href="/#">
+                <a href="/#" target="_blank">
                   <i className="fab fa-twitter" />
                 </a>
               </li>
               <li>
-                <a href="/#">
+                <a href="/#" target="_blank">
                   <i class="fab fa-medium-m" aria-hidden="true" />
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="/#">
-                  <i className="fab fa-github" />
+                <a href="mailto:destinyleaross@gmail.com" target="_blank">
+                  <i class="fas fa-at" />
                 </a>
               </li>
               <li>
-                <a href="/#">
+                <a href="tel:2343038079" target="_blank">
+                  <i className="fa fa-phone" />
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/destiny-ross" target="_blank">
                   <i className="fab fa-linkedin-in" />
                 </a>
               </li>
-              {/* <li>
-                <a href="/#">
-                  <i className="fab fa-dribbble" />
+              <li>
+                <a href="https://github.com/des-tinydm" target="_blank">
+                  <i className="fab fa-github" />
                 </a>
-              </li> */}
+              </li>
             </ul>
           </div>
         </nav>

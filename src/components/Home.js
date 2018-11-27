@@ -70,7 +70,7 @@ class Home extends Component {
         </div>
 
         <ul class="home-social">
-          <li>
+          {/* <li>
             <a href="#0">
               <i class="fab fa-facebook-f" aria-hidden="true" />
               <span>Facebook</span>
@@ -87,17 +87,29 @@ class Home extends Component {
               <i class="fab fa-medium-m" aria-hidden="true" />
               <span>Medium</span>
             </a>
+          </li> */}
+          <li>
+            <a href="mailto:destinyleaross@gmail.com">
+              <i class="fa fa-at" aria-hidden="true" />
+              <span>Email</span>
+            </a>
           </li>
           <li>
-            <a href="https://github.com/des-tinyDM">
-              <i class="fab fa-github-alt" aria-hidden="true" />
-              <span>Github</span>
+            <a href="tel:2343038079">
+              <i class="fa fa-phone" aria-hidden="true" />
+              <span>Phone</span>
             </a>
           </li>
           <li>
             <a href="https://linkedin.com/in/destiny-ross">
               <i class="fab fa-linkedin-in" aria-hidden="true" />
               <span>LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/des-tinyDM">
+              <i class="fab fa-github-alt" aria-hidden="true" />
+              <span>Github</span>
             </a>
           </li>
         </ul>
