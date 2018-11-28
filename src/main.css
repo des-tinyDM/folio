@@ -2808,7 +2808,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__project-link {
-  display: block;
+  display: inline-block;
   /* color: #ffffff; */
   box-shadow: 0 0 0 1px #ffffff;
   border-radius: 50%;
@@ -2824,6 +2824,11 @@ html.no-csstransitions .home-content__main {
   -webkit-transform: translate3d(0, -100%, 0);
   -ms-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0);
+}
+.item-folio__project-link.right {
+  position: absolute;
+  left: unset;
+  right: 3rem;
 }
 
 .item-folio__project-link i {

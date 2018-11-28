@@ -33,10 +33,19 @@ class Brick extends Component {
               title="Project link"
               target="_blank"
             >
-              <i class="icon-link" />
+              <i class="fa fa-link" />
             </a>
           </span>
-
+          <span onClick={e => e.stopPropagation()}>
+            <a
+              href={this.props.site.hosted}
+              class="item-folio__project-link right"
+              title="Project link"
+              target="_blank"
+            >
+              <i class="fas fa-globe" />
+            </a>
+          </span>
           <div class="item-folio__caption">
             <p>
               Vero molestiae sed aut natus excepturi. Et tempora numquam.

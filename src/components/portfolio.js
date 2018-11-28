@@ -35,6 +35,8 @@ const portfolio = [
     one: qode,
     two: qode,
     fulldisplay: qodetest,
+    github: "https://github.com/DevOcean-DM13/qode",
+    hosted: "http://qode.club",
     description:
       "Qode was built for DevMountain's group capstone project. It was developed to be a crash-course introduction for beginners to code, who aren't satisified with other free options. Qode was developed using React; most of the app takes advantage of React's component-based architecure and uses extremely reusable higher-order components to render content to the screen. The backend is run using Express and connects to a PostgreSQL database.",
     technology:
@@ -44,6 +46,8 @@ const portfolio = [
     name: "Dogletics",
     one: dogleticslogo,
     two: dogleticslogo,
+    github: "https://github.com/des-tinyDM/dogletics-2",
+    hosted: "http://shopdogletics.destinylross-apps.com",
     description:
       "Active dog owners and their furry companions can find equipment to popular dog sports in this web shop demo that uses Stripe integration to handle payments. Users can learn more about each dog sport or search for equipent based on the selected sport."
   }
