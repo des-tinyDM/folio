@@ -154,11 +154,11 @@ class Header extends Component {
               </NavLink>
             </ul>
 
-            <p>
+            {/* <p>
               Perspiciatis hic praesentium nesciunt. Et neque a dolorum{" "}
               <a href="#0">voluptatem</a> porro iusto sequi veritatis libero
               enim. Iusto id suscipit veritatis neque reprehenderit.
-            </p>
+            </p> */}
 
             <ul className="header-nav__social">
               {/* <li>
